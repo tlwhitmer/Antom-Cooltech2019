@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   CoolTech
+   
+   TSS Layout Styles
+	Name: Antonio Jennings
+	Date: 2/19/2019
+   Filename: CT_2019.css
+	
+*/
+
+
+/* HTML and Body Styles */
+html {
+	height: 100%;
+	background-color: black;
+}
+body {
+	background-color: black;
+	left: 15%;
+	right: 15%;
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;	
+	border-right: 1px solid rgb(169, 130, 88);
+	border-left: 1px solid rgb(169, 130, 88);
+	box-shadow: #D4AF37 10px 2px 40px,
+					#D4AF37 -10px 0px 40px;
+}
+
+
+/* Heading Styles */
+h1 {
+   text-align: center;
+   font-size: 35px;
+}
+h2.aqua { 
+	padding-left: 5px;
+}
+h3 {
+	padding-left: 3px;
+}
+h1, h2, h3, p {
+	color: rgb(212,175,55);
+}
+hr {
+	border: 1px solid white;
+  }
+p {
+	text-align: center;
+	font-weight: bold;
+ }    
+ 
+div.second h3{
+text-align: center;
+}
+ 
+/* Navigation Styles */
+li {
+	list-style-type: none;
+}
+nav { 
+width: 100%;
+float: left;
+}
+nav ul li a {
+color: #D4AF37;
+display: block;
+text-decoration: none;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a:active {
+	color: #D4AF37;
+	text-decoration: underline;
+}
+
+
+/* Image Styles */
+img.img1 {
+   width: 500px;
+   height: 200px;
+   float: right;
+}
+
+
+/* Div Styles */
+.third {
+   text-align: center;
+   background-color: black;
+   color: rgb(255, 255,255); 
+}
+.second {
+   border: 3px solid white;
+	margin-top: 200px;
+}
+
